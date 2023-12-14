@@ -1,6 +1,8 @@
-from dataset_tools.templates import AnnotationType
-from src.settings import ANNOTATION_TYPES
 from typing import List
+
+from dataset_tools.templates import AnnotationType
+
+from src.settings import ANNOTATION_TYPES
 
 ###############################################################################
 # ! Set up values if you want to change default values of visualizations
@@ -11,7 +13,7 @@ SAMPLE_RATE = 1  # make less if dataset is too big
 # * Preview class to visualize in SUMMARY.md overview section
 # * Literal["ClassesPreview", "HorizontalGrid", "SideAnnotationsGrid", "Poster", "HorizontalGridAnimated", "VerticalGridAnimated"]
 # * If None, then preview_class will be set automatically to "ClassesPreview"
-PREVIEW_CLASS = "Poster"
+PREVIEW_CLASS = "SideAnnotationsGrid"
 
 IS_DETECTION_TASK: bool = None  # ? Set True if you want to visualize only bbox annotations
 if IS_DETECTION_TASK is None:
@@ -42,8 +44,8 @@ VERTICAL_GRID_IS_DETECTION_TASK: bool = IS_DETECTION_TASK
 
 ###############################################################
 # * Set up visualization params for SideAnnotationsGrid class #
-SIDE_ANNOTATIONS_GRID_ROWS: int = None
-SIDE_ANNOTATIONS_GRID_COLS: int = None
+SIDE_ANNOTATIONS_GRID_ROWS: int = 3
+SIDE_ANNOTATIONS_GRID_COLS: int = 2
 SIDE_ANNOTATIONS_GRID_IS_DETECTION_TASK: bool = IS_DETECTION_TASK
 ###############################################################
 
