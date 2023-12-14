@@ -7,7 +7,6 @@ in IEEE Transactions on Geoscience and Remote Sensing,
 vol. 55, no. 6, pp. 3322-3337, 
 June 2017, 
 doi: 10.1109/TGRS.2017.2669341.
-
 ```
 
 [Source](https://www.kaggle.com/datasets/ipythonx/tgrs-road)
