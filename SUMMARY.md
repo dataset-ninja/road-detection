@@ -2,7 +2,7 @@
 
 The dataset consists of 224 images with 448 labeled objects belonging to 2 different classes including *centerline* and *road*.
 
-Images in the Road Detection and Centerline Extraction dataset have pixel-level semantic segmentation annotations. All images are labeled (i.e. with annotations). There are 3 splits in the dataset: *train* (160 images), *test* (44 images), and *validation* (20 images). The dataset was released in 2017 by the Chinese Academy of Sciences, China.
+Images in the Road Detection and Centerline Extraction dataset have pixel-level semantic segmentation annotations. All images are labeled (i.e. with annotations). There are 3 splits in the dataset: *train* (160 images), *test* (44 images), and *validation* (20 images). The dataset was released in 2017 by the <span style="font-weight: 600; color: grey; border-bottom: 1px dashed #d3d3d3;">Chinese Academy of Sciences, China</span>.
 
 Here is the visualized example grid with annotations:
 
