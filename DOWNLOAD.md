@@ -1,6 +1,6 @@
 Dataset **Road Detection and Centerline Extraction** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://www.dropbox.com/scl/fi/2eb1r5ogrp4fijq0d06fd/road-detection-and-centerline-extraction-DatasetNinja.tar?rlkey=x1fed8k8456ldrct22ty0o17a&dl=1)
+ [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogImZzOi8vYXNzZXRzLzMxMzFfUm9hZCBEZXRlY3Rpb24gYW5kIENlbnRlcmxpbmUgRXh0cmFjdGlvbi9yb2FkLWRldGVjdGlvbi1hbmQtY2VudGVybGluZS1leHRyYWN0aW9uLURhdGFzZXROaW5qYS50YXIiLCAic2lnIjogIjROUUtTajJrMFRCRXM0UkJ2ZG9nTlI3OTRyUTBQZTJMT1kxVWQrOGtYRkE9In0=)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
